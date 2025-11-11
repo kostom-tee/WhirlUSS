@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+<OutputPath>../../../WhirlUSS/Assets/Plugins/Kostom/Whirl-USS Framework/Source/</OutputPath>
+<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Settings\" />
+    <None Remove="UssValue\" />
+    <None Remove="CustomUtilityRule\" />
+    <None Remove="CustomUtility\" />
+    <None Remove="Responsive\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Settings\" />
+    <Folder Include="UssValue\" />
+    <Folder Include="CustomUtilityRule\" />
+    <Folder Include="CustomUtility\" />
+    <Folder Include="Responsive\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\Applications\Unity\Hub\Editor\2022.3.31f1\Unity.app\Contents\PlaybackEngines\MacStandaloneSupport\Variations\mono\Managed\UnityEngine.CoreModule.dll</HintPath>
+    <Private>false</Private>  </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>..\..\..\..\..\Applications\Unity\Hub\Editor\2022.3.31f1\Unity.app\Contents\PlaybackEngines\MacStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+    <Private>false</Private>  </Reference>
+  </ItemGroup>
+</Project>

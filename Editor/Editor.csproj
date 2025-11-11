@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+<OutputPath>../../../WhirlUSS/Assets/Plugins/Kostom/Whirl-USS Framework/Source/</OutputPath>
+<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Compilation\" />
+    <None Remove="SettingsEditor\" />
+    <None Remove="Manager\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Compilation\" />
+    <Folder Include="SettingsEditor\" />
+    <Folder Include="Manager\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Runtime">
+      <HintPath>..\..\..\WhirlUSS\Assets\Plugins\Kostom\Whirl-USS Framework\Source\Runtime.dll</HintPath>
+    <Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\Applications\Unity\Hub\Editor\2022.3.31f1\Unity.app\Contents\PlaybackEngines\MacStandaloneSupport\Variations\mono\Managed\UnityEngine.CoreModule.dll</HintPath>
+    <Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>..\..\..\..\..\Applications\Unity\Hub\Editor\2022.3.31f1\Unity.app\Contents\PlaybackEngines\MacStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+    <Private>false</Private></Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\Applications\Unity\Hub\Editor\2022.3.31f1\Unity.app\Contents\PlaybackEngines\MacStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.dll</HintPath>
+    <Private>false</Private></Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>..\..\..\..\..\Applications\Unity\Hub\Editor\2022.3.31f1\Unity.app\Contents\Managed\UnityEngine\UnityEditor.dll</HintPath>
+    <Private>false</Private></Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>..\..\..\..\..\Applications\Unity\Hub\Editor\2022.3.31f1\Unity.app\Contents\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+    <Private>false</Private></Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\..\..\..\Applications\Unity\Hub\Editor\2022.3.31f1\Unity.app\Contents\PlaybackEngines\MacStandaloneSupport\Variations\il2cpp\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    <Private>false</Private></Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\..\..\Applications\Unity\Hub\Editor\2022.3.31f1\Unity.app\Contents\PlaybackEngines\MacStandaloneSupport\Variations\mono\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    <Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
