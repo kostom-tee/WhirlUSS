@@ -10,9 +10,9 @@
   TailwindCSS-style to Unity UI Toolkit with utility-first design for rapidly building custom user interfaces.
 </p>
 
-<p align="center">
-    <a href="https://assetstore.unity.com/packages/slug/340816"><img src="https://raw.githubusercontent.com/kostom-tee/WhirlUSS/HEAD/.github/download.svg"  alt="Build"></a>
-    <a href="https://github.com/kostom-tee/WhirlUSS/blob/master/LICENSE"><img src="https://raw.githubusercontent.com/kostom-tee/WhirlUSS/HEAD/.github/mit.svg" alt="License"></a>
+<p align="center" style="display:flex; align-items:center; justify-content:center; gap:5px; scale:1.5">
+    <a style="display:flex; align-items:center; justify-content:center;"  href="https://assetstore.unity.com/packages/slug/340816"><img src="https://raw.githubusercontent.com/kostom-tee/WhirlUSS/HEAD/.github/download.svg"  alt="Build"></a>
+    <a style="display:flex; align-items:center; justify-content:center;" href="https://github.com/kostom-tee/WhirlUSS/blob/master/LICENSE"><img src="https://raw.githubusercontent.com/kostom-tee/WhirlUSS/HEAD/.github/mit.svg" alt="License"></a>
 </p>
 
 ---
@@ -23,7 +23,7 @@ For full documentation, visit [kostom.net/whirluss](https://kostom.net/whirluss/
 
 ## Build
 
-For the latest build, visit [https://assetstore.unity.com/packages/slug/340816](https://assetstore.unity.com/packages/slug/340816).
+For the latest unity asset build, visit [https://assetstore.unity.com/packages/slug/340816](https://assetstore.unity.com/packages/slug/340816).
 
 ## Community
 
