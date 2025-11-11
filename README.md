@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://kostom.net/whirluss" target="_blank">
     <picture>
-      <img alt="Whirl USS" src="https://raw.githubusercontent.com/kostom-tee/WhirlUSS/HEAD/.github/Whirl.png" width="350" height="70" style="max-width: 100%;">
+      <img alt="Whirl USS" src="https://raw.githubusercontent.com/kostom-tee/WhirlUSS/HEAD/.github/Whirl.png" width="250" style="max-width: 100%;">
     </picture>
   </a>
 </p>
