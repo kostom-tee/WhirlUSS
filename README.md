@@ -11,7 +11,8 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/tailwindcss/tailwindcss/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/tailwindcss.svg" alt="License"></a>
+    <a href="https://assetstore.unity.com/packages/slug/340816"><img src="https://raw.githubusercontent.com/kostom-tee/WhirlUSS/HEAD/.github/download.svg" alt="License"></a>
+    <a href="https://github.com/kostom-tee/WhirlUSS/blob/master/LICENSE"><img src="https://raw.githubusercontent.com/kostom-tee/WhirlUSS/HEAD/.github/mit.svg" alt="License"></a>
 </p>
 
 ---
