@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  A utility-first USS framework for rapidly building custom user interfaces.
+  TailwindCSS-style to Unity UI Toolkit with utility-first design for rapidly building custom user interfaces.
 </p>
 
 <p align="center">
